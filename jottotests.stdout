@@ -1,0 +1,40 @@
+Buildfile: /home/stunes/users/changey/ps4/build.xml
+
+init:
+
+compile:
+    [javac] /home/stunes/users/changey/ps4/build.xml:7: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/stunes/users/changey/ps4/bin
+
+test:
+    [junit] Testsuite: ui.JottoGUITest
+    [junit] Tests run: 17, Failures: 0, Errors: 0, Time elapsed: 26.472 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] [I@5082277
+    [junit] [I@43277a30
+    [junit] [I@530ce397
+    [junit] null
+    [junit] [I@4c4936f3
+    [junit] [I@25de152f
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: hasNewPuzzleNumber took 0.865 sec
+    [junit] Testcase: hasNewPuzzleButton took 0.113 sec
+    [junit] Testcase: hasPuzzleNumber took 0.148 sec
+    [junit] Testcase: hasGuessField took 0.167 sec
+    [junit] Testcase: hasGuessTable took 0.35 sec
+    [junit] Testcase: hasGuessTableRows took 0.152 sec
+    [junit] Testcase: startingPuzzleNumber took 0.223 sec
+    [junit] Testcase: randomPuzzleNumberPress took 0.796 sec
+    [junit] Testcase: setPuzzleNumberClick took 2.032 sec
+    [junit] Testcase: setPuzzleNumberTrivialClear took 0.464 sec
+    [junit] Testcase: setPuzzleNumberClear took 2.459 sec
+    [junit] Testcase: makeGuessClear took 1.202 sec
+    [junit] Testcase: makeGuess took 2.974 sec
+    [junit] Testcase: communicateWithServerError took 4.469 sec
+    [junit] Testcase: communicateWithServerWin took 2.986 sec
+    [junit] Testcase: multithreadImmediateGuess took 3.064 sec
+    [junit] Testcase: multithreadStillActive took 3.976 sec
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
